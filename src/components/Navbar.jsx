@@ -8,7 +8,12 @@ const Navbar = ({balance  }) => {
         <header>
             <nav className='navbar'>
                 <div className='logo'> Save<span>C<FontAwesomeIcon icon={faCoins} />in</span></div>
+                    
                 <div className='balance-container'>
+                  <ul>
+                      <li>Deposit</li>
+                      <li>Withdraw</li>
+                    </ul>
                     <div className='balance'>Php {balance}</div>
                 </div>
             </nav>

@@ -29,14 +29,27 @@ body{
     cursor: pointer;
 }
 
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+.navbar ul li{
+    cursor: pointer;
+
+}
+
 .navbar .logo span{
     color: gold;
 }
 .navbar .balance-container{
-width: 8rem;
-border-left: 2px solid white;   
+    gap: 2px;
+    display: flex;
+    width: 8rem;
+ 
 }
 .navbar .balance-container .balance{
+    border-left: 2px solid white;
     padding: 8px 4px;
 }
 .box-container{
