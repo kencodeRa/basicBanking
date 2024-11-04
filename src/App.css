@@ -29,21 +29,11 @@ body{
     cursor: pointer;
 }
 
-.navbar ul{
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-}
-.navbar ul li{
-    cursor: pointer;
-
-}
 
 .navbar .logo span{
     color: gold;
 }
 .navbar .balance-container{
-    gap: 2px;
     display: flex;
     width: 8rem;
  
@@ -64,6 +54,15 @@ body{
     background-color: #121212;
     color: white;
     border-radius:10px ;
+}
+
+.to-withdraw{
+    justify-self: flex-end;
+    font-size: 12px;
+    cursor: pointer;
+}
+.to-withdraw:hover{
+    color: red;
 }
 .form-container{
     display: flex;

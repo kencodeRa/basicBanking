@@ -14,7 +14,8 @@ const Deposit = ({balance, setBalance}) => {
   }
   return (
      <div className='box-container'>
-      <form action="#" onSubmit={handleClick}  className='form-container'>
+      <div className='to-withdraw'>Withdraw</div>
+      <form onSubmit={handleClick}  className='form-container'>
         <label className='form-label'>Deposit Money
         </label>
         <input
